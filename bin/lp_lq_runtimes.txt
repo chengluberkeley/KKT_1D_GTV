@@ -1,0 +1,92 @@
+Profile parameters:
+Rounds: 5 | path: /tmp/ | num_scales: 7 | fix_n: 100000 | init_lambda: 0.0001 | isCompObj: false | obj_esp: 0.01 | sol_esp: 0.0001 | nloglogn_stop_scale: 5
+Start lp-lq profile:
+Run LP-LQ with data KKT-LP-LQ for fixed p,q and varying n
+p = 4, q = 4
+n = 10
+Complete KKT in round 0 in time 0 ms, with objective value = 0.0312535
+****
+Complete KKT in round 1 in time 0 ms, with objective value = 0.050598
+****
+Complete KKT in round 2 in time 0 ms, with objective value = 0.029273
+****
+Complete KKT in round 3 in time 0 ms, with objective value = 0.0570344
+****
+Complete KKT in round 4 in time 0 ms, with objective value = 0.00563307
+****
+===========
+n = 100
+Complete KKT in round 0 in time 0 ms, with objective value = 0.261006
+****
+Complete KKT in round 1 in time 0 ms, with objective value = 0.575088
+****
+Complete KKT in round 2 in time 0 ms, with objective value = 0.34488
+****
+Complete KKT in round 3 in time 0 ms, with objective value = 0.383586
+****
+Complete KKT in round 4 in time 0 ms, with objective value = 0.335254
+****
+===========
+n = 1000
+Complete KKT in round 0 in time 2 ms, with objective value = 3.84259
+****
+Complete KKT in round 1 in time 2 ms, with objective value = 4.13289
+****
+Complete KKT in round 2 in time 2 ms, with objective value = 3.68061
+****
+Complete KKT in round 3 in time 2 ms, with objective value = 3.80832
+****
+Complete KKT in round 4 in time 2 ms, with objective value = 3.46719
+****
+===========
+n = 10000
+Complete KKT in round 0 in time 23 ms, with objective value = 37.247
+****
+Complete KKT in round 1 in time 21 ms, with objective value = 35.0588
+****
+Complete KKT in round 2 in time 19 ms, with objective value = 37.9746
+****
+Complete KKT in round 3 in time 20 ms, with objective value = 37.2975
+****
+Complete KKT in round 4 in time 20 ms, with objective value = 39.0154
+****
+===========
+n = 100000
+Complete KKT in round 0 in time 200 ms, with objective value = 366.115
+****
+Complete KKT in round 1 in time 197 ms, with objective value = 368.946
+****
+Complete KKT in round 2 in time 196 ms, with objective value = 364.756
+****
+Complete KKT in round 3 in time 200 ms, with objective value = 365.21
+****
+Complete KKT in round 4 in time 197 ms, with objective value = 368.009
+****
+===========
+n = 1000000
+Complete KKT in round 0 in time 2033 ms, with objective value = 3669.88
+****
+Complete KKT in round 1 in time 1967 ms, with objective value = 3676.21
+****
+Complete KKT in round 2 in time 1853 ms, with objective value = 3685.52
+****
+Complete KKT in round 3 in time 1947 ms, with objective value = 3696.28
+****
+Complete KKT in round 4 in time 1886 ms, with objective value = 3676.04
+****
+===========
+n = 10000000
+Complete KKT in round 0 in time 19060 ms, with objective value = 36817.5
+****
+Complete KKT in round 1 in time 18501 ms, with objective value = 36766.3
+****
+Complete KKT in round 2 in time 18554 ms, with objective value = 36757.6
+****
+Complete KKT in round 3 in time 18591 ms, with objective value = 36787.3
+****
+Complete KKT in round 4 in time 19700 ms, with objective value = 36776.3
+****
+===========
+Written in file /tmp//out_LP-LQ_KKT-LP-LQ.txt
+////////////////////
+Complete lp-lq profile.
