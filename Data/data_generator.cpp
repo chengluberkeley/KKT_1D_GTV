@@ -23,6 +23,7 @@ std::string toString(gen_data_type genDataType) {
         case MPO_W_INPUT_SIZE: return "MPO-W-INPUT-SIZE";
         case MPO_W_LAMBDA: return "MPO-W-LAMBDA";
         case CONDAT_WORST_CASE: return "CONDAT-WORST-CASE";
+        case KKT_LINEAR_L2: return "KKT-Linear-L2";
         case KKT_HUBER: return "KKT-HUBER";
         default:
             return "";

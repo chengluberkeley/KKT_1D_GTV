@@ -64,7 +64,7 @@ cd bin
 This project is a `cmake` project. To build from the source:
 ```
 mkdir build && cd build
-cmake .. && make . -j5
+cmake .. && make -j5
 ```
 
 ## Solve your own problem

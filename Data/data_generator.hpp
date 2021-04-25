@@ -27,6 +27,7 @@ typedef enum GEN_DATA_TYPE {
     MPO_W_INPUT_SIZE,
     MPO_W_LAMBDA,
     CONDAT_WORST_CASE,
+    KKT_LINEAR_L2,
     KKT_HUBER,
 } gen_data_type;
 
