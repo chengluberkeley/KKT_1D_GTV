@@ -11,22 +11,22 @@
 #echo "=== Complete l2-l2 ==="
 
 #echo "=== Start to run lp-lq ==="
-./kkt_main -profile lp-lq > lp_lq_runtimes.txt
+./kkt_main -profile lp-lq
 #echo "=== Complete lp-lq ==="
 
 #echo "=== Start to run pwl2-l1 ==="
-./kkt_main -profile pwl2-l1 -num_scales 6
+./kkt_main -profile pwl2-l1
 #echo "=== Complete pwl2-l1 ==="
 
 #echo "=== Start to run pwl1-l1 ==="
-./kkt_main -profile pwl1-l1 -nloglogn_stop_scale 4 -fix_n 10000 -num_scales 6
+./kkt_main -profile pwl1-l1
 #echo "=== Complete pwl1-l1 ==="
 
 #echo "=== Start to run l1-l1 ==="
-./kkt_main -profile l1-l1 -nloglogn_stop_scale 4 -fix_n 10000
+./kkt_main -profile l1-l1
 #echo "=== Complete l1-l1 ==="
 
-echo "=== Start to run Huber ==="
+#echo "=== Start to run Huber ==="
 ./kkt_main -profile Huber
-echo "=== Complete Huber ==="
+#echo "=== Complete Huber ==="
 

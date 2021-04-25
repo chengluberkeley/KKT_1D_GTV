@@ -46,6 +46,27 @@ k_i|x_i - a_i| - \frac{1}{2}k^2_i,\quad \text{otherwise}
 #### Linear-L2 (Laplacian on a path)
 <img src="https://render.githubusercontent.com/render/math?math=\min_{x_1,\ldots,x_n} \sum_{i=1}^nc_ix_i %2B \frac{1}{2}\sum_{i=1}^{n-1}(x_i - x_{i %2B 1})^2">
 
+## Run prebuilt executable
+For a sample run of all special case problems implemented:
+```
+cd bin
+./run.sh
+```
+It will output runtime profiles in the `/tmp/` folder.
+
+To see the full runtime arguments,
+```
+cd bin
+./kkt_main
+```
+
+## Build from the source
+This project is a `cmake` project. To build from the source:
+```
+mkdir build && cd build
+cmake .. && make . -j5
+```
+
 ## Solve your own problem
 To solve (1D-GTV) problem of your own <img src="https://render.githubusercontent.com/render/math?math=f_i(x_i)"> and <img src="https://render.githubusercontent.com/render/math?math=h_i(x_i - x_{i %2B 1})"> functions, simply update the functions `compDrvt(...)` and `compSepInv(...)` in [kkt.hpp](KKT/kkt.hpp) to compute the derivatives and the inverses of derivatives for your <img src="https://render.githubusercontent.com/render/math?math=f_i(x_i)"> and <img src="https://render.githubusercontent.com/render/math?math=h_i(x_i - x_{i %2B 1})"> functions respectively.
 
