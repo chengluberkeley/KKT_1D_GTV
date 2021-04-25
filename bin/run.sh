@@ -30,3 +30,6 @@
 ./kkt_main -profile Huber
 #echo "=== Complete Huber ==="
 
+#echo "=== Start to run Linear-l2 ==="
+./kkt_main -profile linear-l2
+#echo "=== Complete linear-l2 ==="
