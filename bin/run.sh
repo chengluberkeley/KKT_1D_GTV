@@ -15,11 +15,11 @@
 #echo "=== Complete lp-lq ==="
 
 #echo "=== Start to run pwl2-l1 ==="
-./kkt_main -profile pwl2-l1
+./kkt_main -profile pwl2-l1 -num_scales 6
 #echo "=== Complete pwl2-l1 ==="
 
 #echo "=== Start to run pwl1-l1 ==="
-./kkt_main -profile pwl1-l1
+./kkt_main -profile pwl1-l1 -num_scales 6
 #echo "=== Complete pwl1-l1 ==="
 
 #echo "=== Start to run l1-l1 ==="
